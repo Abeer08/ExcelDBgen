@@ -79,7 +79,7 @@ if auto_conf:
     for j in enumerate(table_data):
         old_conf_data.append(['varchar(255)'])
 
-    old_conf_data[pk] = ["double", "primary key", "not null"]
+    old_conf_data[pk] = ["varchar(255)", "primary key", "not null"]
 
     # Rmoving nan
 
